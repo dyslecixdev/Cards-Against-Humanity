@@ -1,0 +1,116 @@
+/*Cards @dashboard.html*/
+.flex{
+    display: flex;
+    justify-content: center;
+  }
+  .dash {
+    font-family: 'Basic', sans-serif;
+    background-color: rgb(220, 218, 218);
+  }
+  .dash h1 {
+    text-align: center;
+  }
+  
+  .navbar {
+    align-items: center;
+  }
+  
+  .cards {
+    width: 200px;
+  }
+  
+  .black { /*Black cards*/
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    height: 250px;
+    margin: 10px;
+  }
+  
+  .white { /*White cards*/
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 250px;
+    margin: 10px;
+  }
+  
+  /* card pop-up */
+  #pop {
+    display: none;
+    position: absolute;
+    background-color: #F68B1D;
+    height: 300px;
+    width: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #master {
+    background-color: #0c0c0c;
+    color: white; 
+    width: 80%;
+  }
+  
+  /* rainbow button */
+  .rainbow{
+    background-color: #0c0c0c;
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 10px;
+  }
+  
+  .rainbow_black{
+    background-color: #0c0c0c;
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  .rainbow_white{
+    background-color: #f2f4f7;
+    border-radius: 4px;  
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    padding: 8px 16px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .rainbow-5:hover{
+    background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+  
+  
+  
+    );
+  animation:slidebg 2s linear infinite;
+  }
+  
+  
+  @keyframes slidebg {
+  to {
+    background-position:40vw;
+  }
+} 

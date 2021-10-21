@@ -1,3 +1,5 @@
+# All good! Don't edit!
+
 import pymysql.cursors
 
 class MySQLConnection:

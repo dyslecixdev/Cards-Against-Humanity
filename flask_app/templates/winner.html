@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner</title>
+
+    <style>
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>Welcome {{Winner}} </h1>
+
+    <h3> {{Winner}} wins this round </h3>
+    <h4> {{Winner}} has won {{}} times.  </h4>
+    <h5>Other players stats: </h5>
+
+    <div class="create">
+        <h3>Design Your Card</h3>
+        <form action="/create_card">
+            <label for="card_name"></label>
+            <input type="text" name="card_name"> 
+            <label for="card_statement"></label>
+            <input type="text" name="card_statement" id="new_card">
+            <input type="submit" value="Create Card">
+        </form>
+
+
+    </div>
+    
+
+
+    <p>WOuld you like to play again?</p>
+
+    <a href="/dashboard"> Play Again </a>
+    <a href="/logout"> Logout </a>
+
+
+    
+</body>
+</html>

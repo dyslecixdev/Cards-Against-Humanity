@@ -27,6 +27,26 @@ CREATE TABLE IF NOT EXISTS `user_schema_cah`.`users` (
 ENGINE = InnoDB;
 
 
+-- -----------------------------------------------------
+-- Table `user_schema_cah`.`cards`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `user_schema_cah`.`cards` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `card_name` VARCHAR(255) NULL,
+  `card_statement` VARCHAR(255) NULL,
+  `created_at` DATETIME NULL DEFAULT now(),
+  `updated_at` DATETIME NULL DEFAULT now() on update now(),
+  `user_id` INT NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_cards_users_idx` (`user_id` ASC) VISIBLE,
+  CONSTRAINT `fk_cards_users`
+    FOREIGN KEY (`user_id`)
+    REFERENCES `user_schema_cah`.`users` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
