@@ -1,7 +1,7 @@
 export const Cah = 
 [
   {
-    "name": "Food Pack",
+    "name": "Main",
     "white": [
       {
         "text": "A belly full of hard-boiled eggs.",
@@ -20,7 +20,7 @@ export const Cah =
         "pack": 0
       },
       {
-        "text": "Being emotionally and physically dominated by Gordon Ramsay.",
+        "text": "Being psychologically scarred by Gordon Ramsay.",
         "pack": 0
       },
       {
@@ -40,7 +40,7 @@ export const Cah =
         "pack": 0
       },
       {
-        "text": "Jizz Twinkies.",
+        "text": "Mustard Twinkies.",
         "pack": 0
       },
       {
@@ -88,7 +88,7 @@ export const Cah =
         "pack": 0
       },
       {
-        "text": "The hot dog I put in my vagina ten days ago.",
+        "text": "The hot dog I put in my butthole ten days ago.",
         "pack": 0
       },
       {
@@ -96,47 +96,9 @@ export const Cah =
         "pack": 0
       },
       {
-        "text": "What to do with all of this chocolate on my penis.",
-        "pack": 0
-      }
-    ],
-    "black": [
-      {
-        "text": "Aw babe, your burbs smell like _.",
-        "pick": 1,
+        "text": "What to do with all of this chocolate on my face.",
         "pack": 0
       },
-      {
-        "text": "Don`t fear failure fear _",
-        "pick": 1,
-        "pack": 0
-      },
-      {
-        "text": "Excuse me, waiter. Could you take this back? This soup tastes like _.",
-        "pick": 1,
-        "pack": 0
-      },
-      {
-        "text": "I'm Bobby Flay, and if you can't stand _. get out of the kitchen!",
-        "pick": 1,
-        "pack": 0
-      },
-      {
-        "text": "It's not delivery. It's _.",
-        "pick": 1,
-        "pack": 0
-      },
-      {
-        "text": "Now on Netflix: Jiro Dreams Of _.",
-        "pick": 1,
-        "pack": 0
-      }
-    ],
-    "official": true
-  },
-  {
-    "name": "Geek Pack",
-    "white": [
       {
         "text": "A fully-dressed female videogame character.",
         "pack": 1
@@ -146,7 +108,7 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "A homemade, cum-stained Star Trek Uniform.",
+        "text": "A homemade, sweat-stained Star Trek Uniform.",
         "pack": 1
       },
       {
@@ -174,10 +136,6 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "Getting bitten by a radioactive spider and then battling leukimia for 30 years.",
-        "pack": 1
-      },
-      {
         "text": "KHAAAAAAAAN!",
         "pack": 1
       },
@@ -186,7 +144,7 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "Offering sexual favors for an ore and a sheep.",
+        "text": "Offering your only child for an ore and a sheep.",
         "pack": 1
       },
       {
@@ -198,7 +156,7 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "Ser Jorah Mormont's cerulean-blue balls.",
+        "text": "Flynn's insatiable bloodlust.",
         "pack": 1
       },
       {
@@ -206,7 +164,7 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "Stuffing my balls into a Sega Genesis and pressing the power button.",
+        "text": "Forcing my tongue into a Sega Genesis and pressing the power button.",
         "pack": 1
       },
       {
@@ -214,11 +172,11 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "Tapping Serra Angel.",
+        "text": "Muhammad's seventh visit to the Starbucks restroom.",
         "pack": 1
       },
       {
-        "text": "The Cock Ring of Alacrity.",
+        "text": "One ring to rule them all.",
         "pack": 1
       },
       {
@@ -232,9 +190,132 @@ export const Cah =
       {
         "text": "Yoshi's huge egg-laying cloaca.",
         "pack": 1
+      },
+      {
+        "text": "A picture of Sean Connery shirtless",
+        "pack": 2
+      },
+      {
+        "text": "A hazmat suit full of farts.",
+        "pack": 2
+      },
+      {
+        "text": "A misty room full of glistening egg sacs.",
+        "pack": 2
+      },
+      {
+        "text": "A planet-devouring space worm named Pablo.",
+        "pack": 2
+      },
+      {
+        "text": "A protagonist with no qualities.",
+        "pack": 2
+      },
+      {
+        "text": "An alternate history where Hitler was gay but he still killed all those people.",
+        "pack": 2
+      },
+      {
+        "text": "Beep beep boop beep boop.",
+        "pack": 2
+      },
+      {
+        "text": "Cheerful organ-harvesting robots.",
+        "pack": 2
+      },
+      {
+        "text": "Cosmic bowling.",
+        "pack": 2
+      },
+      {
+        "text": "Tyler's wind tunnel torture technique.",
+        "pack": 2
+      },
+      {
+        "text": "Frantically writing equations on a chalkboard.",
+        "pack": 2
+      },
+      {
+        "text": "Funkified aliens from the planet Groovius.",
+        "pack": 2
+      },
+      {
+        "text": "Going too far with science and bad things happening.",
+        "pack": 2
+      },
+      {
+        "text": "How great of a movie Men In Black was.",
+        "pack": 2
+      },
+      {
+        "text": "Laying thousands of eggs in a man's colon.",
+        "pack": 2
+      },
+      {
+        "text": "Realizing every person's average age in heaven is sixty.",
+        "pack": 2
+      },
+      {
+        "text": "Nine seasons of sexual tension with David Duchovny.",
+        "pack": 2
+      },
+      {
+        "text": "That girl from the Hunger Games.",
+        "pack": 2
+      },
+      {
+        "text": "The dystopia we're living in right now.",
+        "pack": 2
+      },
+      {
+        "text": "The ending of Lost.",
+        "pack": 2
+      },
+      {
+        "text": "Christian's zoom lagging...again.",
+        "pack": 2
+      },
+      {
+        "text": "Chewbacca's dingleberries.",
+        "pack": 2
+      },
+      {
+        "text": "Tickling the ivory keys.",
+        "pack": 2
       }
     ],
+
     "black": [
+      {
+        "text": "Aw babe, your burps smell like _.",
+        "pick": 1,
+        "pack": 0
+      },
+      {
+        "text": "Don`t fear failure, fear _",
+        "pick": 1,
+        "pack": 0
+      },
+      {
+        "text": "Excuse me, waiter. Could you take this back? This soup tastes like _.",
+        "pick": 1,
+        "pack": 0
+      },
+      {
+        "text": "I'm Bobby Flay, and if you can't stand _. get out of the kitchen!",
+        "pick": 1,
+        "pack": 0
+      },
+      {
+        "text": "It's not delivery. It's _.",
+        "pick": 1,
+        "pack": 0
+      },
+      {
+        "text": "Now on Netflix: Jiro Dreams Of _.",
+        "pick": 1,
+        "pack": 0
+      },
       {
         "text": "_ is way better in _ mode.",
         "pick": 2,
@@ -261,110 +342,10 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "What's the latest bullshit that's troubling this quaint fantasy town?",
+        "text": "What's the latest gossip that's troubling this quaint fantasy town?",
         "pick": 1,
         "pack": 1
-      }
-    ],
-    "official": true
-  },
-  {
-    "name": "Sci-Fi Pack",
-    "white": [
-      {
-        "text": "[A picture of Sean Connery in the movie Zardoz]",
-        "pack": 2
       },
-      {
-        "text": "A hazmat suit full of farts.",
-        "pack": 2
-      },
-      {
-        "text": "A misty room full of glistening egg sacs.",
-        "pack": 2
-      },
-      {
-        "text": "A planet-devouring space worm named Rachel.",
-        "pack": 2
-      },
-      {
-        "text": "A protagonist with no qualities.",
-        "pack": 2
-      },
-      {
-        "text": "An alternate history where Hitler was gay but he still killed all those people.",
-        "pack": 2
-      },
-      {
-        "text": "Beep beep boop beep boop.",
-        "pack": 2
-      },
-      {
-        "text": "Cheerful blowjob robots.",
-        "pack": 2
-      },
-      {
-        "text": "Cosmic bowling.",
-        "pack": 2
-      },
-      {
-        "text": "Darmok and Jalad at Tanagra.",
-        "pack": 2
-      },
-      {
-        "text": "Frantically writing equations on a chalkboard.",
-        "pack": 2
-      },
-      {
-        "text": "Funkified aliens from the planet Groovius.",
-        "pack": 2
-      },
-      {
-        "text": "Going too far with science and bad things happening.",
-        "pack": 2
-      },
-      {
-        "text": "How great of a movie Men In Black was.",
-        "pack": 2
-      },
-      {
-        "text": "Laying thousands of eggs in a man's colon.",
-        "pack": 2
-      },
-      {
-        "text": "Masturbating Yoda's leathery turtle-penis.",
-        "pack": 2
-      },
-      {
-        "text": "Nine seasons of sexual tension with David Duchovny.",
-        "pack": 2
-      },
-      {
-        "text": "That girl from the Hunger Games.",
-        "pack": 2
-      },
-      {
-        "text": "The dystopia we're living in right now.",
-        "pack": 2
-      },
-      {
-        "text": "The ending of Lost.",
-        "pack": 2
-      },
-      {
-        "text": "Three boobs.",
-        "pack": 2
-      },
-      {
-        "text": "Trimming the poop out of Chewbacca's butt hair.",
-        "pack": 2
-      },
-      {
-        "text": "Vulcan sex-madness.",
-        "pack": 2
-      }
-    ],
-    "black": [
       {
         "text": "Computer! Display _ on screen. Enhance.",
         "pick": 1,

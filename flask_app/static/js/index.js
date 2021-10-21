@@ -1,34 +1,49 @@
 import { Cah } from './Cah.js';
-var foodPack = Cah[0];
-var geekPack = Cah[1];
-var scifiPack = Cah[2];
-var black_cards = foodPack.black;
-var white_cards = foodPack.white;
+var MainPack = Cah[0];
+var black_cards = MainPack.black;
+var white_cards = MainPack.white;
 
-console.log(foodPack.name);
+console.log(MainPack.name);
 
-var show = document.getElementById("show")
 
-show.innerHTML = `<h1> ${foodPack.name} </h1>`
-
+var the_hand = [];
+var the_text = [];
 
 var white = document.getElementById("white")
 white.addEventListener('click', white_random)
 function white_random() {
-    var foodWhiteCards = white_cards[Math.floor(Math.random()*white_cards.length)];
-    console.log(`${foodWhiteCards.text}`);
-    alert(`${foodWhiteCards.text}`);
+    var random_w_card = white_cards[Math.floor(Math.random()*white_cards.length)];
+    var WhiteCards = random_w_card.text;
+
+    if(the_hand.length < 7){
+        var hand = document.getElementById('hand')
+        the_hand.push(hand.innerHTML += `<td id="hand_card" class="hand_card"><h3>${WhiteCards}<h3></td>`); 
+        the_text.push(`${WhiteCards}`);
+    }
+}
+console.log(the_text);
+console.log(the_hand);
+
+
+// var user_card = document.getElementById("hand_card")
+// user_card.addEventListener('click', user_picks)
+// function user_picks(){
+    
+// }
+
+var BlackCards = black_cards[Math.floor(Math.random()*black_cards.length)];
+console.log(`${BlackCards.text}`);
+
+var black = document.getElementById("black")
+black.addEventListener('click', black_random)
+function black_random() {
+    var BlackCards = black_cards[Math.floor(Math.random()*black_cards.length)];
+    var master = document.getElementById('master')
+    console.log(`${BlackCards.text}`);
+    master.innerHTML = `<h1>${BlackCards.text}</h1>`
 }
 
-var white = document.getElementById("white")
-white.addEventListener('click', white_random)
-function black_random() {
-    var foodWhiteCards = black_cards[Math.floor(Math.random()*black_cards.length)];
-    console.log(`${foodBlackCards.text}`);
-    var pop = document.getElementById('pop');
-    pop.style.display = "block";
-    pop.innerHTML = `<h2>${foodBlackCards.text}</h2>`
-}
+
 
 
 // for(const card of foodWhiteCards) {
@@ -38,4 +53,6 @@ function black_random() {
 
 // var pop = document.getElementById("pop")
 // // var randomBlack_card = black_cards[Math.floor(Math.random()*black_cards.length)];
-// pop.innerHTML = `<h2>${}` 
+// pop.innerHTML = `<h2>${}`
+
+//slice method to remove white cards.
