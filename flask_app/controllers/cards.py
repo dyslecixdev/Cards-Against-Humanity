@@ -44,3 +44,7 @@ def create_card():
     Card.create_card(data)
     
     return redirect('/winner/cards')  
+
+@app.route('/loser')
+def loser():
+    return render_template("loser.html") 
