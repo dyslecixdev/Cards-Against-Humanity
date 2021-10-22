@@ -6,11 +6,12 @@ var white_cards = MainPack.white;
 
 console.log(MainPack.name);
 
-// Rules as an alert box when black deck is clicked.
+// Rules as an alert box when black deck is clicked. Update rules before 3.
 var black = document.getElementById("black");
 black.addEventListener('click', rules);
 function rules() {
-    alert("1. The text in the black box is the black card you have to complete." + "2. Clicking on the white deck adds a white card to your hand, and you can have up to seven cards!" + "3. Clicking on one of the white cards in your hand submits it as your answer, and removes the card from your hand." + "4. Out of the three white cards in the black box (your card and two cards from computer players), click the one you think is the funniest." + "5. Click the Next Round button to begin the next round!" + "6. After 5 rounds the game ends!");
+    var message = "1. The text in the black box is the black card you have to complete." + "\n" + "2. Clicking on the white deck adds a white card to your hand, and you can have up to seven cards!" + "\n" + "3. Clicking on one of the white cards in your hand submits it as your answer, and removes the card from your hand." + "\n" + "4. Out of the three white cards in the black box (your card and two cards from computer players), click the one you think is the funniest." + "\n" + "5. Click the Next Round button to begin the next round!" + "\n" + "6. After 5 rounds the game ends!"
+    alert(message);
 }
 
 // Generates the text from a random black card in the black box.
@@ -90,9 +91,13 @@ function choose(e){
     console.log(chosen);
     var alert_user = document.getElementById('pop-it');
     if(chosen == the_user[0]){
-        alert_user.innerHTML= '<div class="notify"><iframe src="https://giphy.com/embed/7b4FwtEI6W9yg" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><h2>I guess you won this round.</h2></div>';
+        alert_user.innerHTML= '<div id="win" class="notify"><iframe src="https://giphy.com/embed/7b4FwtEI6W9yg" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><h2>I guess you won this round.</h2></div>';
+        var win = document.getElementById('win');
+        win.innerHTML += '<a href = "/winner">Winner</a>';
     } else{
-        alert_user.innerHTML= `<div class="notify" style='text-align: center;'><h2 style='width:400px;'>Wow you think the computer is funnier? I respect the honesty. You deserve an Oscar.</h2><iframe src="https://giphy.com/embed/jU9m03NG7bw88rwzok" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>`;
+        alert_user.innerHTML= `<div id="lose" class="notify" style='text-align: center;'><h2 style='width:400px;'>Wow you think the computer is funnier? I respect the honesty. You deserve an Oscar.</h2><iframe src="https://giphy.com/embed/jU9m03NG7bw88rwzok" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>`;
+        var lose = document.getElementById('lose');
+        lose.innerHTML += '<a href = "/loser">Loser</a>';
     }
 }
 
