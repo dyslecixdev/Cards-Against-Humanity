@@ -400,7 +400,7 @@ export const Cah =
         "pack": 2
       },
       {
-        "text": "Thanos using the stones to destroy the stones.",
+        "text": "Taking the Coding Dojo belt exam.",
         "pack": 2
       },
       {
@@ -480,6 +480,98 @@ export const Cah =
         "pack": 2
       },
       {
+        "text": "Playing a female RPG character so you can stare at those assets.",
+        "pack": 2
+      },
+      {
+        "text": "COVID-19.",
+        "pack": 2
+      },
+      {
+        "text": "The second coming of our lord and savior, Jesus Christ.",
+        "pack": 2
+      },
+      {
+        "text": "A fetish for sweaty people in the gym.",
+        "pack": 2
+      },
+      {
+        "text": "Finding a needle in a haystack.",
+        "pack": 2
+      },
+      {
+        "text": "The transatlantic slave trade.",
+        "pack": 2
+      },
+      {
+        "text": "Republicans.",
+        "pack": 2
+      },
+      {
+        "text": "A mime having a stroke.",
+        "pack": 2
+      },
+      {
+        "text": "The pink goop in Chicken McNuggets.",
+        "pack": 2
+      },
+      {
+        "text": "Black Friday at Walmart.",
+        "pack": 2
+      },
+      {
+        "text": "Bickering over the position of the north star.",
+        "pack": 2
+      },
+      {
+        "text": "in bed, pajama-clad 'intimate, non-sexual touching'.",
+        "pack": 2
+      },
+      {
+        "text": "A gourmet restaurant for dogs.",
+        "pack": 2
+      },
+      {
+        "text": "Pooping in a space suit.",
+        "pack": 2
+      },
+      {
+        "text": "Pinkeye.",
+        "pack": 2
+      },
+      {
+        "text": "Facebook's army of russian bots.",
+        "pack": 2
+      },
+      {
+        "text": "Evan and Leo, the dynamic duo!",
+        "pack": 2
+      },
+      {
+        "text": "Jenn pretending she's not on zoom.",
+        "pack": 2
+      },
+      {
+        "text": "James with ALL of the answers ALL of the time!",
+        "pack": 2
+      },
+      {
+        "text": "Nate tripping off his mountain bike down the side of a cliff.",
+        "pack": 2
+      },
+      {
+        "text": "Matthew using the code to destroy the code.",
+        "pack": 2
+      },
+      {
+        "text": "Deana breeding a horde of mutant lizards.",
+        "pack": 2
+      },
+      {
+        "text": "Sarah losing her ninty-ninth consecutive game in Warzone.",
+        "pack": 2
+      },
+      {
         "text": "Tickling the ivory keys.",
         "pack": 2
       }
@@ -512,13 +604,13 @@ export const Cah =
         "pack": 0
       },
       {
-        "text": "Now on Netflix: Jiro Dreams Of _.",
+        "text": "Now on Netflix: _ Game.",
         "pick": 1,
         "pack": 0
       },
       {
-        "text": "_ is way better in _ mode.",
-        "pick": 2,
+        "text": "_ , best job ever!",
+        "pick": 1,
         "pack": 1
       },
       {
@@ -653,6 +745,46 @@ export const Cah =
       },
       {
         "text": "_ . High-five bro.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "_ for Dummies.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "The latest Tiktok dance is _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Fortnite's next expansion: _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Trust me, I'm _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "It's dangerous to go alone! Take _.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Set phasers to _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "What gives me uncontrollable gas?",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "What's the newest diet craze?",
         "pick": 1,
         "pack": 2
       },
