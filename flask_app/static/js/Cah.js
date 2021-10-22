@@ -8,6 +8,10 @@ export const Cah =
         "pack": 0
       },
       {
+        "text": "Jonathan in a suit riding a bicycle for GOD!",
+        "pack": 0
+      },
+      {
         "text": "A joyless vegan party.",
         "pack": 0
       },
@@ -156,7 +160,7 @@ export const Cah =
         "pack": 1
       },
       {
-        "text": "Flynn's insatiable bloodlust.",
+        "text": "Flynn's room of cadavers.",
         "pack": 1
       },
       {
@@ -204,7 +208,11 @@ export const Cah =
         "pack": 2
       },
       {
-        "text": "A planet-devouring space worm named Pablo.",
+        "text": "A planet-devouring space worm named Beetlejuice.",
+        "pack": 2
+      },
+      {
+        "text": "Pablo getting Chick-fil-A at 10pm.",
         "pack": 2
       },
       {
@@ -277,6 +285,18 @@ export const Cah =
       },
       {
         "text": "Chewbacca's dingleberries.",
+        "pack": 2
+      },
+      {
+        "text": "Getting splinters on your bum from riding a Nimbus 3000.",
+        "pack": 2
+      },
+      {
+        "text": "A GIANT FREAKIN' DEATH FRAY!!!",
+        "pack": 2
+      },
+      {
+        "text": "Thor, the God of thunder and love.",
         "pack": 2
       },
       {

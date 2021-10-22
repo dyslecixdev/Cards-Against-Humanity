@@ -14,6 +14,11 @@ class Card:
         self.updated_at = data['updated_at']
         self.user_id = data['user_id']
 
+    # I have access to user_id, how can I use user_id to grab that user's each tree, how can I use tree's user_id to grab that user
+    @property
+    def creator(self):
+        return User.read_by_id({'id': self.user_id}) 
+
     # Creates a card, and inserts their data in the cards table.
     @classmethod
     def create_card(cls, data):
@@ -48,3 +53,15 @@ class Card:
         if len(result) < 1:
             return False
         return cls(result[0])
+
+    # Generates a flash message on the card winner page if certain requirements aren't met.
+    @staticmethod
+    def validate_card(card):
+        is_valid = True
+        if len(card['card_name']) < 3: 
+            is_valid = False
+            flash("Card name must be at least 3 characters", "card")
+        if len(card['card_statement']) < 8:
+            is_valid = False
+            flash("Card statement must be at least 3 characters", "card")
+        return is_valid   

@@ -5,48 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/style.css">
-    <!--fonts-->
+
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
-<body class="dash">
+<body class="dash"> <!--Remove id if it fails-->
 
     <!--Header and Logout link-->
     <div class="navbar flex">
         <h1>Welcome horrible people! Welcome our newest addition, {{user.character_name}}!</h1>
-        <a href="/logout" class="rainbow rainbow-5">End Game<a/>
+        <a href="/logout" class="rainbow rainbow-5">End Game</a>
     </div>
 
     <!--Card Game in Browser-->
     <div>
         <div id="show"></div>
-        <ul id="cards">
-        </ul>
+        <ul id="cards"></ul>
         <div class="flex">
             <div class="cards">
+
+                <!--Black deck-->
                 <div id='black' class="button-b">
                     <h3>Cards Against Humanity</h3>
                 </div>
-                <!-- pop-up the text within the card  -->
+
+                <!--White deck-->
                 <div id='white' class="button-w">
                     <h3>Cards Against Humanity</h3>
                 </div>
-            </div>
-            <div id="master">
-            <!--Center the black card text in this box-->
+
+                <!--Next Round button-->
+                    <button id="next_game" class="rainbow_black rainbow-5">Next Round!</button>
+                </div>
+
+            <!--Black card text in black box-->
+            <div class="display_it" id="pop-it">
+                <div id="master"></div>
+                <div id="cardbox">
+                    <table id="display">
+                        <tr id="display_row"></tr>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
+
+    <!--Hand of white cards-->
     <div class="hand flex">
         <table>
-            <tr id="hand">
-
-            </tr>
+            <tr id="hand"></tr>
         </table>
     </div>
-    <!--Links js-->
+
+    <!--Links to js files-->
     <script type="module" src="{{url_for('static', filename= 'js/Cah.js')}}"></script>
     <script type="module" src="{{url_for('static', filename= 'js/index.js')}}"></script>
 </body>

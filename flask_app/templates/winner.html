@@ -5,43 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winner</title>
-
     <style>
-
+        .create {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 350px;
+            margin: 10px;
+            width: 300px;
+        }
+        body {
+            background-image: url('../static/images/winner.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
     </style>
-
-
 </head>
 
+<!-- Python and JS can access session  -->
 <body>
-
-    <h1>Welcome {{Winner}} </h1>
-
-    <h3> {{Winner}} wins this round </h3>
-    <h4> {{Winner}} has won {{}} times.  </h4>
-    <h5>Other players stats: </h5>
-
-    <div class="create">
-        <h3>Design Your Card</h3>
-        <form action="/create_card">
-            <label for="card_name"></label>
-            <input type="text" name="card_name"> 
-            <label for="card_statement"></label>
-            <input type="text" name="card_statement" id="new_card">
-            <input type="submit" value="Create Card">
-        </form>
-
-
+    <div class="d-flex justify-content-center">
+        <h1>Welcome {{user.character_name}}!</h1>  
     </div>
-    
-
-
-    <p>WOuld you like to play again?</p>
-
-    <a href="/dashboard"> Play Again </a>
-    <a href="/logout"> Logout </a>
-
-
-    
+    <div class="d-flex justify-content-center">
+        <h3> {{ user.character_name }} wins this round </h3>             
+    </div>
+    <div class="create border border-white border-3 rounded-3 ms-3">
+        <div class="d-flex">
+            <h5>Design Your Own White Card</h5>
+        </div>
+        <div class="d-flex">
+            <form action="/create_card" method="post"> 
+                <div class="name">
+                    <label for="card_name">Card Name</label>
+                    <input type="text" name="card_name"> 
+                </div>
+                <div>
+                    <label for="card_statement">Card Statement (PG-13)</label>
+                    <input type="text" name="card_statement" id="new_card">
+                </div>
+                <div class="d-flex justify-content-center align-items-center border border-success mt-3"> 
+                    <input type="submit" value="Create Card"> 
+                </div>
+                </form>
+            </div>
+        </div>
+        <p>Would you like to play again?</p>
+        <div>
+            <a href="/dashboard"> Play Again </a>
+        </div>
+        <div>
+            <a href="/logout"> Logout </a>
+        </div>
 </body>
 </html>

@@ -1,5 +1,9 @@
 /*Cards @dashboard.html*/
 
+* {
+  font-family: 'Basic', sans-serif;
+}
+
 .flex{
   display: flex;
   justify-content: center;
@@ -37,9 +41,19 @@
 
 .cards {
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/*Black cards*/
+#next_game {
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+}
+
+/*Black card*/
 .black { 
   background-color: black;
   border: 2px solid black;
@@ -49,7 +63,7 @@
   margin: 10px;
 }
 
-/*White cards*/
+/*White card*/
 .white { 
   background-color: white;
   border: 2px solid black;
@@ -58,7 +72,7 @@
   margin: 10px;
 }
 
-/* card pop-up */
+/* Card pop-up */
 #pop {
   display: none;
   position: absolute;
@@ -70,13 +84,60 @@
   transform: translate(-50%, -50%);
 }
 
-#master {
+.display_it {
   background-color: #0c0c0c;
-  color: white; 
+  color: white;
   width: 80%;
+  height: 70vh;
 }
 
-/* the hand */
+#display_card {
+  width: 150px;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-left: 10px;
+  border: 2px solid #f3f5f5;
+  background-color: #f6f8f8;
+  border-radius: 20px;
+  color: rgb(3, 3, 3);
+  transition: .3s;
+  text-align: left;
+  height: 200px;
+}
+
+#cardbox {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+#master {
+  margin: 0px;
+}
+
+.notify {
+  background-color: #e73c7e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 30px;
+  border-radius: 400px;
+  height: 600px;
+  width: 600px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 250px;
+  margin-top: 50px;
+}
+
+/* The hand */
 .hand {
   position: absolute;
   margin: 0% 5% 0% 20%;
@@ -152,9 +213,6 @@
     #732982 83.25%,
     #732982 100%,
     #E7484F 100%
-    
-    
-    
   );
   animation:slidebg 2s linear infinite;
 }
@@ -165,6 +223,7 @@
   }
 }
 
+/* Black button */
 .button-b {
   border: 2px solid #0d0e0e;
   background-color: #0d0e0e;
@@ -181,6 +240,7 @@
   transition: .3s;
 }
 
+/* White button */
 .button-w {
   border: 2px solid #f3f5f5;
   background-color: #f6f8f8;
@@ -196,6 +256,3 @@
   box-shadow: -8px 8px #181718;
   transition: .3s;
 }
-
-/* Fix absolute position on white cards.
-Anchor to bottom of browser. */
