@@ -300,6 +300,186 @@ export const Cah =
         "pack": 2
       },
       {
+        "text": "Barrack Obama's stimulus package.",
+        "pack": 2
+      },
+      {
+        "text": "A truck full of rednecks with shotguns.",
+        "pack": 2
+      },
+      {
+        "text": "Samuel Jackson tired of these goddamn snakes on this goddamn plane.",
+        "pack": 2
+      },
+      {
+        "text": "Whispering that you are Batman.",
+        "pack": 2
+      },
+      {
+        "text": "Hurricane Katrina.",
+        "pack": 2
+      },
+      {
+        "text": "Joe Biden giving little girls a free neck massage.",
+        "pack": 2
+      },
+      {
+        "text": "A gentle caress of the inner thigh.",
+        "pack": 2
+      },
+      {
+        "text": "A chloroform-soaked rag.",
+        "pack": 2
+      },
+      {
+        "text": "Monthly child support payments.",
+        "pack": 2
+      },
+      {
+        "text": "A passionate Latino lover.",
+        "pack": 2
+      },
+      {
+        "text": "Giving money to a Nigerian prince.",
+        "pack": 2
+      },
+      {
+        "text": "An ancient Indian burial ground.",
+        "pack": 2
+      },
+      {
+        "text": "Too much marijuana.",
+        "pack": 2
+      },
+      {
+        "text": "Breeding cows for their delicious flesh.",
+        "pack": 2
+      },
+      {
+        "text": "Waiting in line at the DMV.",
+        "pack": 2
+      },
+      {
+        "text": "Fancy Feast.",
+        "pack": 2
+      },
+      {
+        "text": "Mac's spinning beach ball of death.",
+        "pack": 2
+      },
+      {
+        "text": "Michael Jackson's Neverland Ranch.",
+        "pack": 2
+      },
+      {
+        "text": "Exploding pigeons.",
+        "pack": 2
+      },
+      {
+        "text": "Not contributing to society in any meaningful way.",
+        "pack": 2
+      },
+      {
+        "text": "A crusty sock.",
+        "pack": 2
+      },
+      {
+        "text": "Tiger blood.",
+        "pack": 2
+      },
+      {
+        "text": "A balanced breakfast.",
+        "pack": 2
+      },
+      {
+        "text": "Losing your kidney in a dark alleyway.",
+        "pack": 2
+      },
+      {
+        "text": "Sharing needles.",
+        "pack": 2
+      },
+      {
+        "text": "Thanos using the stones to destroy the stones.",
+        "pack": 2
+      },
+      {
+        "text": "A drive-by shooting.",
+        "pack": 2
+      },
+      {
+        "text": "Talking about fight club.",
+        "pack": 2
+      },
+      {
+        "text": "Taking the red pill.",
+        "pack": 2
+      },
+      {
+        "text": "Wiping your partner's butt.",
+        "pack": 2
+      },
+      {
+        "text": "Dry heaving.",
+        "pack": 2
+      },
+      {
+        "text": "Free samples at Costco.",
+        "pack": 2
+      },
+      {
+        "text": "Pictures of scantily clad cats.",
+        "pack": 2
+      },
+      {
+        "text": "Friends with benefits.",
+        "pack": 2
+      },
+      {
+        "text": "Old Spice.",
+        "pack": 2
+      },
+      {
+        "text": "Mr. Roger's neighborhood.",
+        "pack": 2
+      },
+      {
+        "text": "Stranger danger.",
+        "pack": 2
+      },
+      {
+        "text": "The flying spaghetti monster.",
+        "pack": 2
+      },
+      {
+        "text": "Gettind drunk on cough medicine.",
+        "pack": 2
+      },
+      {
+        "text": "Natural selection.",
+        "pack": 2
+      },
+      {
+        "text": "Lunchables.",
+        "pack": 2
+      },
+      {
+        "text": "Knowing that big brother is always watching.",
+        "pack": 2
+      },
+      {
+        "text": "A bunch of idiots playing a card game instead of interacting like normal humans.",
+        "pack": 2
+      },
+      {
+        "text": "The Ten Commandments.",
+        "pack": 2
+      },
+      {
+        "text": "My Ex.",
+        "pack": 2
+      },
+      {
         "text": "Tickling the ivory keys.",
         "pack": 2
       }
@@ -393,6 +573,86 @@ export const Cah =
       },
       {
         "text": "You have violated the Prime Directive! You exposed an alien culture to _ before they were ready.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "The soup of the day is Cream of _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "_ : good to the last drop.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Kids these days with their tablets and phones. In my day, all you needed was _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "And the Academy Award goes to _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "What's fun until it gets weird?",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "What's that smell?",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "What's my secret power?",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "_ . That's how I want to die.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Little Miss Muffet sat on a tuffet, eating her curds and _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Teach for America is using _ to inspire inner city kids to study.",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Instead of coal, Santa now gives the bad children _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Instead of fifty lashings, you shall receive _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Maybe she's born with it. Maybe it's _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "_ shall not pass!",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "Next time on Dr. Phil: How to talk to your child about _ .",
+        "pick": 1,
+        "pack": 2
+      },
+      {
+        "text": "_ . High-five bro.",
         "pick": 1,
         "pack": 2
       },
