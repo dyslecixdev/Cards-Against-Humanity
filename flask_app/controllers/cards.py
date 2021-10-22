@@ -49,4 +49,4 @@ def create_card():
         "user_id": session['user_id']
     }
     Card.create_card(data)
-    return redirect('/winner/cards')
+    return redirect('/winner/cards')  

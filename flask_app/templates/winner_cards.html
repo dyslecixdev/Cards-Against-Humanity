@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head> 
     <meta charset="UTF-8">
@@ -6,18 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winner Cards</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .dash {
+            font-family: 'Basic', sans-serif;
+	        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	        background-size: 400% 400%;
+	        animation: gradient 15s ease infinite;
+	        height: 100vh;
+            padding: 0px;
+}
+    </style>
 </head>
-<body>
+<body class="dash"> 
+    <!-- hihihih --> 
     <nav class="d-flex justify-content-between align-items-center col-12"> 
-        <h1>Winner's Club</h1> 
-        <h5>View the creative talents of our players </h5>
+        <h1>Winner's Hall of Fame</h1> 
         <h4 class="text-center">Welcome {{user.character_name}} to the hall of winners !!!</h4>
         <div class="d-flex col-4 justify-content-around">
-            <a href="/dashboard" class="btn btn-primary" > Dashboard </a>
+            <a href="/dashboard" class="btn btn-primary" > Dashboard </a> 
+
             <a href="/logout" class="btn btn-info">Logout</a> 
-        </div>
+
+        </div> 
+
     </nav>
     <div class="col-8 mx-auto">
+
         <table class="table table-hover">
             <thead>
                 <tr>
@@ -30,12 +45,15 @@
                 {% for card in cards %} 
                     <tr>
                         <td>{{card.creator.fullname}}</td> 
-                        <td>{{card.card_name}}</td> 
-                        <td>{{card.card_statement}}</td> 
+
+                        <td>{{card.card_name}}  </td> 
+
+                        <td>{{card.card_statement}}  </td> 
+
                     </tr>
                 {% endfor %} 
             </tbody>
         </table>
     </div>
 </body>
-</html>
+</html> 

@@ -1,5 +1,6 @@
 from flask_app.config.mysqlconnection import connectToMySQL
 from flask import flash
+from flask_app.models.user import User
 
 # Declares the database name.
 DATABASE = "user_schema_cah"
@@ -20,9 +21,9 @@ class Card:
         return User.read_by_id({'id': self.user_id}) 
 
     # Creates a card, and inserts their data in the cards table.
-    @classmethod
-    def create_card(cls, data):
-        query = 'INSERT INTO cards (card_name, card_statement) VALUES (%(card_name)s, %(card_statement)s);'
+    @classmethod 
+    def create_card(cls, data): 
+        query = 'INSERT INTO cards (card_name, card_statement, user_id) VALUES (%(card_name)s, %(card_statement)s, %(user_id)s);'
         result = connectToMySQL(DATABASE).query_db(query, data)
         return result
 
@@ -64,4 +65,4 @@ class Card:
         if len(card['card_statement']) < 8:
             is_valid = False
             flash("Card statement must be at least 3 characters", "card")
-        return is_valid   
+        return is_valid

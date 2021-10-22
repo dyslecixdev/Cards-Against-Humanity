@@ -50,4 +50,4 @@ def login():
         flash('Invalid Login!', 'login')
         return redirect('/')
     session['user_id'] = user.id
-    return redirect('/dashboard')
+    return redirect('/dashboard') 
