@@ -9,11 +9,15 @@ Prototype for a single player game of cards against humanity with two pseudo-com
 - Custom styling and effects
 
 ## Authors
-Christian Demesa: https://github.com/christiandeandemesa
-Flynn Antonacci: https://github.com/OvermanFly101
+Christian Demesa: https://github.com/christiandeandemesa <br/>
+Flynn Antonacci: https://github.com/OvermanFly101 <br />
 Muhammad Shahbaz: https://github.com/Herostar01
 
 ## Demo
 ### Registration and Login Page
 
+https://user-images.githubusercontent.com/85912934/142737324-3ec5e28c-c3fa-476e-9ec9-92983e1f1661.mp4
+
 ### Game Demo
+
+https://user-images.githubusercontent.com/85912934/142737366-4e65d031-cd24-4c2e-ba01-9e30630302d7.mp4
