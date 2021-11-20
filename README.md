@@ -1,5 +1,5 @@
 # CARDS AGAINST HUMANITY
-Prototype for a single player game of cards against humanity with two pseudo-computer players. The backend is built with Python and JS, the frontend utilizes HTML and CSS, and the MySQL database is used.
+Prototype for a single player game of Cards Against Humanity with two pseudo-computer players. The backend is built with Python, JavaScript, and Flask, the frontend utilizes HTML and CSS, and the MySQL database is used.
 
 ## Features
 - User registration and login with validations
